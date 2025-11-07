@@ -1,16 +1,24 @@
-# uts_dzikri
+# UTS Pemrogramman Mobile - KB1179
 
-A new Flutter project.
+Repository ini berisi project Flutter untuk Ujian Tengah Semester (UTS) mata kuliah **Pemrogramman Mobile**.
 
-## Getting Started
+## 👤 Identitas Mahasiswa
+| Keterangan | Data |
+|-----------|------|
+| **Nama**  | Dzikri Abdurrahman Haris |
+| **NIM**   | 1123150049 |
+| **Kelas** | TI SE 23 P1 |
+| **Mata Kuliah** | Pemrogramman Mobile |
+| **Dosen Pengampu** | I Ketut Gunawan |
+| **Tahun Akademik** | 2025 / 2026 |
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Tampilan Aplikasi (Screenshot)
+| ![Splash1](./screenshots/splash1.png) 
+| ![Splash2](./screenshots/splash2.png) 
+| ![Splash3](./screenshots/splash3.png) 
+| ![Login](./screenshots/login.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
