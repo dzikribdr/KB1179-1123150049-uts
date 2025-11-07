@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:uts_dzikri/screen/splash3.dart';
+import 'package:uts_dzikri/screen/login.dart';
 
-class MySplash2 extends StatelessWidget {
-  const MySplash2({super.key});
+class MySplash3 extends StatelessWidget {
+  const MySplash3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class MySplash2 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.white,
               image: DecorationImage(
-                image: AssetImage("assets/cash1.png"),
+                image: AssetImage("assets/cash2.png"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -59,7 +59,7 @@ class MySplash2 extends StatelessWidget {
                 height: 10,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.red,
+                  color: Colors.grey,
                 ),
               ),
               const SizedBox(width: 10),
@@ -68,7 +68,7 @@ class MySplash2 extends StatelessWidget {
                 height: 10,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.grey,
+                  color: Colors.red,
                 ),
               ),
               const SizedBox(width: 10),
@@ -85,14 +85,14 @@ class MySplash2 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MySplash3()),
+                    MaterialPageRoute(builder: (context) => MyLogin()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red,
                 ),
                 child: const Text(
-                  "Continue",
+                  "Get Started",
                   style: TextStyle(
                     color: Colors.white,
                   ),
