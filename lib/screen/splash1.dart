@@ -38,6 +38,7 @@ class MySplash1 extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18.0,
+              color: Colors.red
             ),
           ),
           const SizedBox(height: 16),

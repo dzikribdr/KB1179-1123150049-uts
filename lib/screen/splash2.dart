@@ -34,10 +34,11 @@ class MySplash2 extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            "Forgot to bring your wallet \n when you are shopping?",
+            "Don't worry! we got you cover. \n Use Wallie instead of cash!",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18.0,
+              color: Colors.red
             ),
           ),
           const SizedBox(height: 16),

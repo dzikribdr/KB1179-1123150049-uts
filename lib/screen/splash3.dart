@@ -34,10 +34,11 @@ class MySplash3 extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            "Forgot to bring your wallet \n when you are shopping?",
+            "Let's try Wallie now! \n And get the best solution",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18.0,
+              color: Colors.red
             ),
           ),
           const SizedBox(height: 16),
@@ -83,9 +84,10 @@ class MySplash3 extends StatelessWidget {
               width: 400,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(builder: (context) => MyLogin()),
+                    (Route<dynamic> route) => false,
                   );
                 },
                 style: ElevatedButton.styleFrom(
